@@ -34,7 +34,4 @@ version automatically. Someone would probably find this in testing, but it's som
 
 ## Compatability
 
-Right now this gem is locked to Rails > 3.0.0 but < 3.1.0 I'm using Rails 3.0.10 locally and haven't
-tested against Rails 3.1 yet. I assume that the template lookup code for Rails probably isn't going
-to change any time soon, but I locked in these versions just in case. If you use this gem, and use it
-on 3.1.x and it works fine, let me know and I'll update the dependency in the Gemfile.
+NOTE: this is a backported version for Rails 2.3.x
