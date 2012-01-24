@@ -1,3 +1,7 @@
+## Compatibility
+
+NOTE: this is a backported version for Rails 2.3.x
+
 ## The Problem
 
 Let's say you're going to start building a mobile version of your site. You use something like
@@ -32,6 +36,4 @@ know you have to go in and add one. Which means if you're working on some new `:
 pages but forget to add one, and there is a requisite `:html` version, Rails will now serve the `:html`
 version automatically. Someone would probably find this in testing, but it's something to be aware of.
 
-## Compatability
 
-NOTE: this is a backported version for Rails 2.3.x
